@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.categories-pics {
+  @apply rounded shadow;
+}
+.menuItems {
+  @apply px-3 font-raleway text-gray-100;
+}
+.menuItemsMobile {
+  @apply py-5 px-10 font-raleway text-lg text-gray-100;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header-line {
+  margin-left: 5px;
+  position: relative;
+}
+
+.header-line:after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 5px;
+  background: #191970;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+li {
+  @apply list-disc;
+}
+.portfolio-lightbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: top;
+}
+.diplomas-thumbs {
+  flex: auto;
+  height: 150px;
+  flex-basis: 150px;
+  border: 3px #021a2b solid;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.diplomas-thumbs:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+body,
+p {
+  @apply font-roboto;
+}
+.activeLink {
+  @apply text-red-700;
+}
+.icon {
+  @apply text-gray-700 hover:text-gray-500 text-4xl;
+}
+h1 {
+  @apply text-3xl font-raleway;
+}
+h2 {
+  @apply text-2xl font-raleway;
+}
+h3 {
+  @apply text-xl font-raleway;
+}
+h4 {
+  @apply text-lg font-raleway;
+}
