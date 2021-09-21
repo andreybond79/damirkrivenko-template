@@ -14,31 +14,19 @@ A Gatsby template for a advanced portfolio with SEO and using Sanity as a backen
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the Gatsby CLI [(install instructions)](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli) to create a new site, specifying the default starter.
 
 ```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+# create a new Gatsby site using the template
+gatsby new new-name-is-here https://github.com/andreybond79/damirkrivenko-template
 ```
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
