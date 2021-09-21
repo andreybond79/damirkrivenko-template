@@ -1,6 +1,6 @@
 # Damir Krivenko README
 
-A Gatsby template for a advanced portfolio with SEO and using Sanity as a backend CMS, TailwindCSS, Formik, Lightbox
+A Gatsby template for an advanced portfolio with SEO and using Sanity as a backend CMS, TailwindCSS, Formik, Lightbox
 
 ## The file structure is as follows:
 
